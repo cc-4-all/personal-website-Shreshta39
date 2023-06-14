@@ -1,59 +1,88 @@
 <html>
-    <head>
-        <title>Shreshta's website</title>
-        <link rel="stylesheet" href="style.css"/>
 
-           
-        
-    </head>
-    <body>
-        <nav>
-            <h1>SK</h1>
-                <ul>
-                    <li>Home</li>
-               
-                    <li>About</li>
-                    <li><a href="mailto:email@example.com">📧email@example.com</a></li>
-                </ul>
-            
-        </nav>
-        <main>
-            <img width="250" src="Images/picgirl.jpg">
-            <h1>All about me!</h1>
+<head>
+    <title>Shreshta's website</title>
+    <link rel="stylesheet" href="style.css" />
+
+
+
+</head>
+
+<body>
+    <nav>
+        <h1>SK</h1>
+        <ul>
+
+
+
+
+            <a href="#hobbies">
+                <li>Hobbies</li>
+            </a>
+            <a href="#interests">
+                <li>Interests</li>
+            </a>
+            <li><a href="mailto:email@example.com">📧email@example.com</a></li>
+        </ul>
+
+    </nav>
+    <main>
+        <div id="top"></div>
+        <img width="250" src="Images/picgirl.jpg">
+        <h1>All about me!</h1>
         <hr />
-        
+
         <div class="profile-item">
             <h1>A brief introduction:</h1>
-            <h4>Hi, I'm Shreshta, a student in secondary school. I love reading and I have an interest in animals.
-        </h4>
-        </div  class="profile-item">
-        <div class="profile-item">
-        <h1> My interests:</h1>
-        <img scr="""/>
-        <h2>Animals</h2>
-        <img width="150" src="Images/animal.jpg">
-        <h4> I love all animals! My favourite animal is a deer!</h4>
-        
+            <h4>
+                Hi, I'm Shreshta, a student in secondary school in Domincan College Sion Hill, which is a school for
+                girls. I have finished first year and I am thirteen years old. I have one younger brother, who is eight
+                years old. I have two goldfish, Ariel and Shell.I live with my parents, my brother and my goldfish.
+            </h4>
         </div class="profile-item">
-            <div class="profile-item">
-                <h1> My hobbies:</h1>.
-                <img scr="""/>
+        <div id="interests" class="profile-item">
+            <h1> My interests:</h1>
+            <img scr="""/>
+        <h2>Animals</h2>
+        <img width=" 150" src="Images/animal.jpg">
+            <h4> I love all animals! My favourite animal is a deer!</h4>
+            <h2> Plants</h2>
+            <img width="150" src="Images/plant.jpg">
+            <h4> I love plants,especially flowers. My favourite flower is a bluebell.</h4>
+
+        </div>
+        <div id="hobbies" class="profile-item">
+            <div class="profile-item last-item"></div>
+            <h1> My hobbies:</h1>.
+            <img scr="""/>
                 <h2>Reading</h2>
-                <img width="100" src="Images/book.jpg">
-                <h4>I love reading! My favourite books are the Harry Potter series!
-            
-                    <h2>Watching movies</h2>
-                    <img width="100" src="Images/movie.jpg">
-                    <h4>I love watching movies, they help me relax and have fun at the same time! My favourite movie is Twilight!</h4>
-                    
+                <img width=" 100" src="Images/book.jpg"> <img width="90" src="Images/books.jpg">
+            <h4>I love reading! My favourite books are the Harry Potter series by J.K. Rowling although my favourite
+                author is Michael Muporogo. I also like the book series The Lord of the Rings and The Hobbit.
+                <h2>Watching movies and TV </h2>
+                <img width="100" src="Images/movie.jpg"> <img width="150" src=" Images/tv.jpg">
+                <h4>I love watching movies because they are enjoyable! My favourite movies are the Twilight movie
+                    series. I also love watching TV. My favourite series is Downton Abbey.
                 </h4>
-                </div class="profile-item">
-                    </div class="profile-item">
-                    </div class="profile-item">
-                </main>
-            <footer>
-                <a href=""#top">Back to top</a>
-                </footer>
+
+            </h4>
+        </div class="profile-item">
+        </div class="profile-item">
+      <!-- GALLERY STARTS HERE-->
+    
+      <div id="gallery">
+        <button id="prev">👈</button>
+        <img scr="images/picgirl.jpg" id="gallery-img" />
+        <button id="next">👉</button>
+      </div>
+
+       <!-- end gallery -->
+    </main>
+    <footer>
+        <a href="#top">Back to top</a>
+    </footer>
+    <script src="script.js"></script>
 </body>
-                </div class="profile-item">
+</div class="profile-item">
+
 </html>

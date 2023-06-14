@@ -3,6 +3,7 @@
     padding:0;
     box-sizing:border-box;
    font-family:"Georgia";
+   scroll-behavior: smooth;
 }
 
 nav{
@@ -15,13 +16,14 @@ nav{
 ul{
     display:felx;
     list-style:none;
-    width:25%;
+    width:10%;
     justify-content:space-between
 }
 main, footer{
 width:1200px;
 margin:auto;
 text-align:center;
+background:lavender;
 }
 h4{
     margin-top:20px;
@@ -31,4 +33,49 @@ h4{
 .profile-item{
     margin-top:50px;
     margin-bottom:50px;
+}
+
+h1 {
+    font-size:40px;
+    font-weight: bold;
+    color:lightskyblue;
+}
+
+h2 {
+    font-size:25px ;
+    font-weight:bold;
+    color:blueviolet;
+}
+
+h4 {
+    font-size:15px;
+    font-weight: bold;
+    color:royalblue;
+    padding-bottom:20px;
+    margin-bottom:0px;
+}
+
+.last-item {
+    margin-bottom:0px;
+}
+
+#gallery {
+    width:250px;
+    height: 250px;
+    margin:auto;
+
+    display:flex;
+    align-items:center
+}
+
+#prev
+#next {
+    height:15px;
+    width:15px;
+    background:none;
+}
+
+#prev:hover,
+#next:hover{
+    cursor:pointer;
 }
